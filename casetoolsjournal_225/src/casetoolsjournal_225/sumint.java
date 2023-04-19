@@ -1,7 +1,7 @@
 package casetoolsjournal_225;
 
 public class sumint {
-	int a,b,sum=0;
+	int a,b,sum=0,sub=0;
 	sumint(int a,int b)
 	{
 		this.a=a;
@@ -11,6 +11,10 @@ public class sumint {
 	void sum()
 	{
 		 sum=a+b;
+	}
+	
+	void sub() {
+		sub=b-a;
 	}
 	
 	void display() {
